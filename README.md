@@ -1,4 +1,4 @@
-# Dynamic 
+# Dynamic [![CircleCI](https://circleci.com/gh/jumaallan/DynamicApp/tree/master.svg?style=shield)](https://circleci.com/gh/jumaallan/DynamicApp/tree/master)
 
 Dynamic is a simple app that helps Dynamic Savings Group members to keep track Savings and help them request loans with ease.
 
