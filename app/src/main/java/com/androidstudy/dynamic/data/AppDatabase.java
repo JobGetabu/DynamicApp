@@ -6,10 +6,8 @@ import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.TypeConverters;
 import android.content.Context;
 
-import com.androidstudy.andelamedmanager.data.dao.MedicineDao;
-import com.androidstudy.andelamedmanager.data.dao.UserDao;
-import com.androidstudy.andelamedmanager.data.model.Medicine;
-import com.androidstudy.andelamedmanager.data.model.User;
+import com.androidstudy.dynamic.data.dao.UserDao;
+import com.androidstudy.dynamic.data.model.User;
 
 @Database(entities = {User.class}, version = 1)
 @TypeConverters(DateConverter.class)

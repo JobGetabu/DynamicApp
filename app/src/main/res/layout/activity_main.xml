@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="user"
-            type="com.androidstudy.andelamedmanager.data.model.User" />
+            type="com.androidstudy.dynamic.data.model.User" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -49,25 +48,25 @@
                 android:visibility="gone"
                 tools:visibility="visible">
 
-                <ImageView
-                    android:id="@+id/image_empty"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@null"
-                    app:srcCompat="@drawable/ic_no_medicine" />
+                <!--<ImageView-->
+                    <!--android:id="@+id/image_empty"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:contentDescription="@null"-->
+                    <!--app:srcCompat="@drawable/ic_no_medicine" />-->
 
-                <TextView
-                    android:id="@+id/text_empty"
-                    style="@style/mainDashboardNoMedicine"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="@dimen/padding_empty_bottom"
-                    android:gravity="center_horizontal"
-                    android:padding="@dimen/padding_normal"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:text="@string/text_empty_message" />
+                <!--<TextView-->
+                    <!--android:id="@+id/text_empty"-->
+                    <!--style="@style/mainDashboardNoMedicine"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="bottom|center_horizontal"-->
+                    <!--android:layout_marginBottom="@dimen/padding_empty_bottom"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:padding="@dimen/padding_normal"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+                    <!--tools:text="@string/text_empty_message" />-->
 
             </FrameLayout>
 
@@ -79,12 +78,13 @@
                 android:orientation="vertical">
 
                 <TextView
-                    style="@style/mainDashboardWelcomeText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@{`Hello ` + user.name}"
                     tools:text="Hello ," />
+
+                <!--style="@style/mainDashboardWelcomeText"-->
 
                 <TextView
                     android:id="@+id/date"
@@ -136,11 +136,11 @@
                                 android:text="8:00 AM"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentEnd="true"
-                                app:srcCompat="@drawable/ic_alarm" />
+                            <!--<ImageView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_alignParentEnd="true"-->
+                                <!--app:srcCompat="@drawable/ic_alarm" />-->
 
                         </RelativeLayout>
 
